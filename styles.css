@@ -1,0 +1,111 @@
+    *{
+    font-family: "Fredoka", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 100%;
+    padding-top: 7%;
+   
+    }
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 7%;
+}
+
+main {
+    display: contents;
+    margin-bottom: 35px;
+    margin-left: 40px;
+    padding-top: 35%;
+}
+
+.text-area {
+    border: 10px;
+    color:black;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {color: black; } 
+.text-area:focus {
+ outline: none; 
+}
+  
+.mensagem {
+
+        background:white;
+        background-image: url(/imagens/robo.avif);
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 7px;
+        color: black;
+        margin-left: 10px;
+        margin-top: 7px;
+        padding-left: 10px;
+    
+}
+.mensagem:focus { 
+    outline:none;
+
+}
+
+.Botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn__descriptar {
+    background: #f6f6f6;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    
+}
+
+.btn__encriptar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#f6f6f6;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    
+}
+
+
+.informacao {
+    color: blanchedalmond;
+   
+ font-size: 18px;
+}
+
+
+footer{
+    font-size: 1.3rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #f6f6f6;
+    text-align: left;
+}
+
+
+
+@media (max-width:470px) {
+    main {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        
+    }
+       
+}
+    
+
